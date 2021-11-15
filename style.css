@@ -12,10 +12,6 @@ body {
     --dark-gray: #6B7280;
 }
 
-hr {
-    margin: 2rem 0;
-}
-
 /** CONTAINER **/
 
 .container-center {
