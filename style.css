@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-body{
+body {
     font-family: 'Noto Sans', sans-serif;
 }
 
 :root {
-    --primary-color:#6EE7B7;
-    --off-white:#F3F4F6;
+    --primary-color: #6EE7B7;
+    --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
 
 hr {
-   margin: 2rem 0rem;
+    margin: 2rem 0;
 }
 
 /** CONTAINER **/
@@ -20,7 +19,7 @@ hr {
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
@@ -38,21 +37,22 @@ hr {
     color: white;
 }
 
-.secondary-link{
+.secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 
 }
 
-/** LISTS **/ 
-.list-non-bullet{
+/** LISTS **/
+.list-non-bullet {
     list-style: none;
+    padding-inline-start: 0;
 }
 
-.list-item-inline{
-   display: inline;
-   padding: 0rem 0.5rem;
+.list-item-inline {
+    display: inline;
+    padding: 0 0.5rem;
 }
 
 /** NAVIGATION **/
@@ -67,7 +67,7 @@ hr {
     font-weight: bold;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
@@ -79,29 +79,29 @@ hr {
     font-weight: bold;
 }
 
-/** HEADER **/ 
+/** HEADER **/
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding: 5rem 2rem 2rem;
 }
 
-.hero .hero-img{
-    max-width: 350px;
+.hero .hero-img {
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
-  text-align: center;
-  color: var(--dark-gray);
-  padding-top: 1rem;
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 1rem;
 }
 
-.clr-l-green{
+.clr-l-green {
     color: var(--primary-color);
 }
 
-/** section **/ 
+/** section **/
 .section h1 {
     text-align: center;
     padding: 2rem;
@@ -109,6 +109,9 @@ hr {
 
 .section {
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .ow {
@@ -116,7 +119,7 @@ hr {
 }
 
 
-/** FOOTER **/ 
+/** FOOTER **/
 footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
@@ -129,11 +132,38 @@ footer {
     color: white;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
 
 .footer-ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
 }
+
+@media (max-width: 900px) {
+    .showcase-list {
+        padding: 2rem;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 3rem auto;
+    }
+
+    .link-primary {
+        display: block;
+    }
+
+    .link-primary {
+        max-width: 140px;
+        padding: 0.6rem 1.2rem;
+        background-color: var(--primary-color);
+        color: #fff;
+        margin: 1rem auto;
+        border-radius: 2rem;
+    }
+    .link{
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+}
+
