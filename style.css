@@ -15,14 +15,16 @@ body {
 /** CONTAINER **/
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
+    width: 100px;
 }
 
 /** LINKS **/
 .links {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: white;
 }
 
 
@@ -99,7 +101,6 @@ body {
 /** section **/
 .section h1 {
     text-align: center;
-    padding: 2rem;
 }
 
 .section {
