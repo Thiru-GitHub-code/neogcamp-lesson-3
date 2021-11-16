@@ -143,6 +143,9 @@ footer {
     text-align: center;
     margin: 3rem auto;
 }
+.text-none{
+    text-decoration: none;
+}
 
 @media (max-width: 900px) {
     .showcase-list {
