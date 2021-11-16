@@ -29,15 +29,16 @@ body {
 
 .primary-link {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
+    padding: 0.6rem 1.2rem;
 }
 
 .secondary-link {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
-
+    padding: 0.6rem 1.2rem;
 }
 
 /** LISTS **/
