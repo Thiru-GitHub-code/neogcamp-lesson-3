@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../minion-app/.idea/minion-app.iml" filepath="$PROJECT_DIR$/../minion-app/.idea/minion-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/neogcamp-lesson-3.iml" filepath="$PROJECT_DIR$/.idea/neogcamp-lesson-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../yoda-app 10.59.23 PM/.idea/yoda-app 10.59.23 PM.iml" filepath="$PROJECT_DIR$/../../yoda-app 10.59.23 PM/.idea/yoda-app 10.59.23 PM.iml" />
     </modules>
   </component>
 </project>
